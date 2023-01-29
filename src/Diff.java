@@ -11,5 +11,9 @@ public class Diff {
             diff = num2 - num1;
         }
         System.out.println("Difference is = "+diff);
+        if(num1 >70)
+        {
+            throw new ArithmeticException();
+        }
     }
 }

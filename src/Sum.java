@@ -10,6 +10,11 @@ public class Sum {
         {
             sum += 100;
         }
+        if(num2 < 30)
+        {
+            throw new ArithmeticException("Number tooo large");
+        }
+
         System.out.println("Sum is = "+sum);
     }
 }

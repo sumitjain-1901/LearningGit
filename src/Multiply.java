@@ -8,5 +8,12 @@ public class Multiply {
         int product = num1 * num2 * num3;
         System.out.println("Product of 3 number = "+product);
 
-       }
+
+        if(num2 < 30)
+        {
+            throw new ArithmeticException("Number tooo large");
+        }
+
+        System.out.println("Product is = "+product);
+    }
 }

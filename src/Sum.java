@@ -3,7 +3,8 @@ public class Sum {
     {
         int num1 = 10;
         int num2 = 20;
-        int sum = num1 + num2;
-        System.out.println("Sum is = "+sum);
+        int num3 = 30;
+        int sum = num1 + num2 + num3;
+        System.out.println("Sum of 3 numbers is = "+sum);
     }
 }

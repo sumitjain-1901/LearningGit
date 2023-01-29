@@ -6,5 +6,10 @@ public class Sum {
         int num3 = 30;
         int sum = num1 + num2 + num3;
         System.out.println("Sum of numbers is = "+sum);
+        if(sum < 10)
+        {
+            sum += 100;
+        }
+        System.out.println("Sum is = "+sum);
     }
 }

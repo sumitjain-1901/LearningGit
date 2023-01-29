@@ -5,6 +5,6 @@ public class Sum {
         int num2 = 20;
         int num3 = 30;
         int sum = num1 + num2 + num3;
-        System.out.println("Sum of 3 numbers is = "+sum);
+        System.out.println("Sum of numbers is = "+sum);
     }
 }
